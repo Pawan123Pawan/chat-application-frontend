@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  overflow: hidden;
+  background-image: url("../public/leaf.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.7;
+}
+
+.user:hover {
+  background: rgb(5, 5, 5);
+  background: linear-gradient(
+    0deg,
+    rgba(5, 5, 5, 0.5775560224089635) 100%,
+    rgba(34, 193, 195, 1) 100%
+  );
+  transition: all 0.5s;
+}
+.user-dashboard{
+  background: rgb(5, 5, 5);
+  background: linear-gradient(
+    0deg,
+    rgba(5, 5, 5, 0.5775560224089635) 100%,
+    rgba(34, 193, 195, 1) 100%
+  );
+}
+
+.custom-scrollbar {
+  overflow-y: hidden;
+}
+
+.custom-scrollbar:hover {
+  overflow-y: auto;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 3px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background-color: transparent;
+}
